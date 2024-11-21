@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mata Mata World Cup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="home-screen">
+      <h1>MATA MATA <br> WORLD CUP</h1>
+      <p>Escolha como deseja simular seus jogos</p>
+      <button id="random-simulation">Simulação Aleatória</button>
+      <button id="manual-simulation">Inserir Resultados</button>
+    </div>
+
+    <div id="match-screen" class="hidden">
+      <h1>MATA MATA <br> WORLD CUP</h1>
+      <h2 id="stage-title"></h2>
+      <div id="matches"></div>
+      <div class="controls">
+        <button id="simulate-games">Simular Jogos</button>
+        <button id="reset">Reiniciar</button>
+        <button id="advance">Avançar</button>
+      </div>
+    </div>
+
+    <div id="final-screen" class="hidden">
+      <h1>MATA MATA <br> WORLD CUP</h1>
+      <h2 id="champion"></h2>
+      <img src="trophy.png" alt="Troféu da Copa" class="trophy">
+      <button id="restart">Reiniciar</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

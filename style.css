@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #2C0059;
+    color: white;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin: 10px 0;
+  }
+  
+  h2 {
+    margin: 20px 0;
+  }
+  
+  button {
+    background-color: #00A2FF;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1rem;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0086CC;
+  }
+  
+  #matches {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .match {
+    background-color: #3C0077;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .trophy {
+    width: 150px;
+    margin: 20px 0;
+  }
+  
